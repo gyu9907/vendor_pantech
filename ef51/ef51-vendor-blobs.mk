@@ -52,7 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef51/proprietary/lib/libsensor_reg.so:$(TARGET_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/pantech/ef51/proprietary/lib/libmmjpeg.so:$(TARGET_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/pantech/ef51/proprietary/lib/hw/camera.msm8960.so:$(TARGET_OUT_VENDOR)/lib/hw/camera.msm8960.so \
-    vendor/pantech/ef51/proprietary/lib/hw/sensors.msm8960.so:$(TARGET_OUT_VENDOR)/lib/hw/sensors.msm8960.so \
+    vendor/pantech/ef51/proprietary/lib/hw/sensors.msm8960.so:$(TARGET_OUT_VENDOR)/lib/hw/sensors.ef51.so \
     vendor/pantech/ef51/proprietary/lib/hw/sensors_native_hal.so:$(TARGET_OUT_VENDOR)/lib/hw/sensors_native_hal.so \
     vendor/pantech/ef51/proprietary/lib/hw/sensors_qcom.so:$(TARGET_OUT_VENDOR)/lib/hw/sensors_qcom.so
 

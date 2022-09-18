@@ -16,52 +16,52 @@
 
 #IM-A860L
 PRODUCT_COPY_FILES += \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51l/vidcfw.elf:$(TARGET_OUT_VENDOR)/etc/firmware_ef51l/vidcfw.elf \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51l/vidc.mdt:$(TARGET_OUT_VENDOR)/etc/firmware_ef51l/vidc.mdt \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51l/vidc.b00:$(TARGET_OUT_VENDOR)/etc/firmware_ef51l/vidc.b00 \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51l/vidc.b01:$(TARGET_OUT_VENDOR)/etc/firmware_ef51l/vidc.b01 
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51l/vidcfw.elf:system/vendor/etc/firmware_ef51l/vidcfw.elf \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51l/vidc.mdt:system/vendor/etc/firmware_ef51l/vidc.mdt \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51l/vidc.b00:system/vendor/etc/firmware_ef51l/vidc.b00 \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51l/vidc.b01:system/vendor/etc/firmware_ef51l/vidc.b01 
 
 #IM-A860S
 PRODUCT_COPY_FILES += \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51s/vidcfw.elf:$(TARGET_OUT_VENDOR)/etc/firmware_ef51s/vidcfw.elf \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51s/vidc.mdt:$(TARGET_OUT_VENDOR)/etc/firmware_ef51s/vidc.mdt \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51s/vidc.b00:$(TARGET_OUT_VENDOR)/etc/firmware_ef51s/vidc.b00 \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51s/vidc.b01:$(TARGET_OUT_VENDOR)/etc/firmware_ef51s/vidc.b01 
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51s/vidcfw.elf:system/vendor/etc/firmware_ef51s/vidcfw.elf \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51s/vidc.mdt:system/vendor/etc/firmware_ef51s/vidc.mdt \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51s/vidc.b00:system/vendor/etc/firmware_ef51s/vidc.b00 \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51s/vidc.b01:system/vendor/etc/firmware_ef51s/vidc.b01 
 
 #IM-A860K
 PRODUCT_COPY_FILES += \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51k/vidcfw.elf:$(TARGET_OUT_VENDOR)/etc/firmware_ef51k/vidcfw.elf \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51k/vidc.mdt:$(TARGET_OUT_VENDOR)/etc/firmware_ef51k/vidc.mdt \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51k/vidc.b00:$(TARGET_OUT_VENDOR)/etc/firmware_ef51k/vidc.b00 \
-    vendor/pantech/ef51/proprietary/etc/firmware_ef51k/vidc.b01:$(TARGET_OUT_VENDOR)/etc/firmware_ef51k/vidc.b01 
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51k/vidcfw.elf:system/vendor/etc/firmware_ef51k/vidcfw.elf \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51k/vidc.mdt:system/vendor/etc/firmware_ef51k/vidc.mdt \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51k/vidc.b00:system/vendor/etc/firmware_ef51k/vidc.b00 \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware_ef51k/vidc.b01:system/vendor/etc/firmware_ef51k/vidc.b01 
 
 PRODUCT_COPY_FILES += \
-    vendor/pantech/ef51/proprietary/bin/sensors.qcom:$(TARGET_OUT_VENDOR)/bin/sensors.qcom \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_faceproc.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_frameproc.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_frameproc.so \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_hdr_lib.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_hdr_lib.so \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_image_stab.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_image_stab.so \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_imx091.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_imx091.so \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_interface.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_interface.so \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_interface2.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_interface2.so \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_plugin.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_plugin.so \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_statsproc31.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_statsproc31.so \
-    vendor/pantech/ef51/proprietary/lib/libmmcamera_wavelet_lib.so:$(TARGET_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
-    vendor/pantech/ef51/proprietary/lib/liboemcamera.so:$(TARGET_OUT_VENDOR)/lib/liboemcamera.so \
-    vendor/pantech/ef51/proprietary/lib/libsensor1.so:$(TARGET_OUT_VENDOR)/lib/libsensor1.so \
-    vendor/pantech/ef51/proprietary/lib/libsensor_reg.so:$(TARGET_OUT_VENDOR)/lib/libsensor_reg.so \
-    vendor/pantech/ef51/proprietary/lib/libmmjpeg.so:$(TARGET_OUT_VENDOR)/lib/libmmjpeg.so \
-    vendor/pantech/ef51/proprietary/lib/hw/camera.msm8960.so:$(TARGET_OUT_VENDOR)/lib/hw/camera.msm8960.so \
-    vendor/pantech/ef51/proprietary/lib/hw/sensors.msm8960.so:$(TARGET_OUT_VENDOR)/lib/hw/sensors.ef51.so \
-    vendor/pantech/ef51/proprietary/lib/hw/sensors_native_hal.so:$(TARGET_OUT_VENDOR)/lib/hw/sensors_native_hal.so \
-    vendor/pantech/ef51/proprietary/lib/hw/sensors_qcom.so:$(TARGET_OUT_VENDOR)/lib/hw/sensors_qcom.so
+    vendor/pantech/ef51/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_frameproc.so:system/vendor/lib/libmmcamera_frameproc.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_imx091.so:system/vendor/lib/libmmcamera_imx091.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_interface2.so:system/vendor/lib/libmmcamera_interface2.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_plugin.so:system/vendor/lib/libmmcamera_plugin.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_statsproc31.so:system/vendor/lib/libmmcamera_statsproc31.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/hw/camera.msm8960.so:system/vendor/lib/hw/camera.msm8960.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/hw/sensors.msm8960.so:system/vendor/lib/hw/sensors.ef51.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/hw/sensors_native_hal.so:system/vendor/lib/hw/sensors_native_hal.so \
+    vendor/pantech/ef51/proprietary/vendor/lib/hw/sensors_qcom.so:system/vendor/lib/hw/sensors_qcom.so
 
 PRODUCT_COPY_FILES += \
-    vendor/pantech/ef51/proprietary/etc/firmware/cyttsp_8064_mtp.hex:$(TARGET_OUT_VENDOR)/firmware/cyttsp_8064_mtp.hex \
-    vendor/pantech/ef51/proprietary/etc/firmware/cyttsp_8960_cdp.hex:$(TARGET_OUT_VENDOR)/firmware/cyttsp_8960_cdp.hex \
-    vendor/pantech/ef51/proprietary/etc/firmware/leia_pfp_470.fw:$(TARGET_OUT_VENDOR)/firmware/leia_pfp_470.fw \
-    vendor/pantech/ef51/proprietary/etc/firmware/leia_pm4_470.fw:$(TARGET_OUT_VENDOR)/firmware/leia_pm4_470.fw \
-    vendor/pantech/ef51/proprietary/etc/firmware/vidc_1080p.fw:$(TARGET_OUT_VENDOR)/firmware/vidc_1080p.fw \
-    vendor/pantech/ef51/proprietary/etc/firmware/vidc.b02:$(TARGET_OUT_VENDOR)/firmware/vidc.b02 \
-    vendor/pantech/ef51/proprietary/etc/firmware/vidc.b03:$(TARGET_OUT_VENDOR)/firmware/vidc.b03 \
-    vendor/pantech/ef51/proprietary/etc/firmware/libpn544_fw.so:$(TARGET_OUT_VENDOR)/firmware/libpn544_fw.so \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware/cyttsp_8064_mtp.hex:system/vendor/firmware/cyttsp_8064_mtp.hex \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware/cyttsp_8960_cdp.hex:system/vendor/firmware/cyttsp_8960_cdp.hex \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware/vidc_1080p.fw:system/vendor/firmware/vidc_1080p.fw \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware/vidc.b02:system/vendor/firmware/vidc.b02 \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware/vidc.b03:system/vendor/firmware/vidc.b03 \
+    vendor/pantech/ef51/proprietary/vendor/etc/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \

@@ -55,11 +55,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef52/proprietary/vendor/lib/hw/sensors_qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors_qcom.so \
 
 PRODUCT_COPY_FILES += \
-    vendor/pantech/ef52/proprietary/vendor/etc/firmware/cyttsp_8064_mtp.hex:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cyttsp_8064_mtp.hex \
-    vendor/pantech/ef52/proprietary/vendor/etc/firmware/cyttsp_8960_cdp.hex:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/cyttsp_8960_cdp.hex \
-    vendor/pantech/ef52/proprietary/vendor/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/leia_pfp_470.fw \
-    vendor/pantech/ef52/proprietary/vendor/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/leia_pm4_470.fw \
-    vendor/pantech/ef52/proprietary/vendor/etc/firmware/vidc_1080p.fw:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/vidc_1080p.fw \
-    vendor/pantech/ef52/proprietary/vendor/etc/firmware/vidc.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/vidc.b02 \
-    vendor/pantech/ef52/proprietary/vendor/etc/firmware/vidc.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/vidc.b03 \
-    vendor/pantech/ef52/proprietary/vendor/etc/firmware/libpn544_fw.so:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/libpn544_fw.so \
+    vendor/pantech/ef52/proprietary/vendor/etc/firmware/cyttsp_8064_mtp.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/cyttsp_8064_mtp.hex \
+    vendor/pantech/ef52/proprietary/vendor/etc/firmware/cyttsp_8960_cdp.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/cyttsp_8960_cdp.hex \
+    vendor/pantech/ef52/proprietary/vendor/etc/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
+    vendor/pantech/ef52/proprietary/vendor/etc/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
+    vendor/pantech/ef52/proprietary/vendor/etc/firmware/vidc_1080p.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/vidc_1080p.fw \
+    vendor/pantech/ef52/proprietary/vendor/etc/firmware/vidc.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vidc.b02 \
+    vendor/pantech/ef52/proprietary/vendor/etc/firmware/vidc.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vidc.b03 \
+    vendor/pantech/ef52/proprietary/vendor/etc/firmware/libpn544_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn544_fw.so \

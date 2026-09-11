@@ -110,7 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/hw/gps.msm8960.so:system/vendor/lib/hw/gps.msm8960.so \
-    vendor/pantech/msm8960-common/proprietary/vendor/lib/hw/nfc.default.so:system/vendor/lib/hw/nfc.default.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/hw/nfc.default.so:system/vendor/lib/hw/nfc.msm8960.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/liboem_ssa.so:system/vendor/lib/liboem_ssa.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libvendor_aka.so:system/vendor/lib/libvendor_aka.so \
@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
-    vendor/pantech/msm8960-common/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
